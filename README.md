@@ -1,19 +1,12 @@
-# vue-todo-app
+This Vue application is using the most recent vue-cli. I call it the Task Tracker which runs on a json-server where you can perform your regualr CRUD process.
 
-## Project setup
-```
-npm install
-```
+## Instructions
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Install dependencies using:
+`npm install`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Run the json server before running the dev server:
+`npm run backend`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Run the dev server:
+`npm run serve`
